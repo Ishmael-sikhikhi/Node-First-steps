@@ -14,6 +14,5 @@ figlet(greet('Xola'), function (err, data){
 const chalk = require('chalk');
 //import the greet module that is in the current folder
 
-
 const styledMessage = chalk.bgGreen.black(greet('Xola'));
 console.log(styledMessage)
